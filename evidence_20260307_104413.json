@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-07T10:44:13.838502",
+  "risk_score": 0.644,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:43:09.063606"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "Hello",
+      "score": 0.0,
+      "raw_score": 0.438,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.5476,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:43:13.260787"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:43:21.866518"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "16",
+      "score": 0.662,
+      "raw_score": 0.662,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8273,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:43:26.828400"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can i meet you alone in secret",
+      "score": 0.78,
+      "raw_score": 0.78,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9751,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:44:13.837541"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:43:21.866518",
+      "room_risk": 0.509,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can i meet you alone in secret",
+      "score": 0.78,
+      "raw_score": 0.78,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9751,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:44:13.837541",
+      "room_risk": 0.644,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

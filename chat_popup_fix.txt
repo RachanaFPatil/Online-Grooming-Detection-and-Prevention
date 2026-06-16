@@ -1,0 +1,55 @@
+# CHAT.HTML POPUP FIX
+# Find this in your chat.html JS section and replace:
+
+# ── OLD (broken — popup never shows again after dismiss) ──
+function showPopup(){
+  if(popupShown)return;
+  popupShown=true;
+  document.getElementById('safety-overlay').classList.add('show');
+}
+document.getElementById('s-dismiss').addEventListener('click',()=>{
+  document.getElementById('safety-overlay').classList.remove('show');
+});
+
+# ── NEW (fixed — re-shows at sandbox activation even if dismissed) ──
+let popupLevel = 0;  // 0=none, 1=medium shown, 2=sandbox shown
+
+function showPopup(level=1){
+  if(popupShown && level <= popupLevel) return;
+  popupShown = true;
+  popupLevel = level;
+
+  const title = document.getElementById('s-title');
+  const text  = document.getElementById('s-text');
+  const icon  = document.getElementById('s-icon');
+
+  if(level >= 2){
+    icon.textContent  = '🚨';
+    title.textContent = 'SafeGuard is Protecting You';
+    text.textContent  = 'This conversation has been flagged as dangerous. SafeGuard AI has stepped in to protect you. You can talk to someone privately anytime.';
+  } else {
+    icon.textContent  = '⚠️';
+    title.textContent = 'Stay Safe Online';
+    text.textContent  = "This conversation may not be safe. You haven't done anything wrong — you can talk to someone anytime, 100% private.";
+  }
+  document.getElementById('safety-overlay').classList.add('show');
+}
+
+document.getElementById('s-dismiss').addEventListener('click',()=>{
+  document.getElementById('safety-overlay').classList.remove('show');
+});
+
+# Also update socket.on('risk_update') and socket.on('sandbox_activated'):
+
+socket.on('risk_update',data=>{
+  if(myRole!=='child') return;
+  updateRiskBar(data.risk,data.stage);
+  showPopup(1);   # <-- change from showPopup() to showPopup(1)
+});
+
+socket.on('sandbox_activated',data=>{
+  if(myRole!=='child') return;
+  updateRiskBar(data.risk,data.stage);
+  showPopup(2);   # <-- change from showPopup() to showPopup(2)
+  addSys('🛡 SafeGuard is now protecting this conversation');
+});

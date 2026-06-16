@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-07T10:42:12.057238",
+  "risk_score": 0.64,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:41:19.027973"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "Hello",
+      "score": 0.0,
+      "raw_score": 0.438,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.5476,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:41:22.102294"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:41:32.398732"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "14",
+      "score": 0.684,
+      "raw_score": 0.684,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8549,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:41:39.783706"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can i meet you alone?",
+      "score": 0.771,
+      "raw_score": 0.771,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9639,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:42:12.056226"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:41:32.398732",
+      "room_risk": 0.509,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can i meet you alone?",
+      "score": 0.771,
+      "raw_score": 0.771,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9639,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:42:12.056226",
+      "room_risk": 0.64,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

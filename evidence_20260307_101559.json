@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-03-07T10:15:59.959593",
+  "risk_score": 0.612,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Jordan",
+      "role": "predator",
+      "text": "hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:50:08.314194"
+    },
+    {
+      "sender": "Alex",
+      "role": "child",
+      "text": "Hello",
+      "score": 0.0,
+      "raw_score": 0.438,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.5476,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:50:18.044249"
+    },
+    {
+      "sender": "Jordan",
+      "role": "predator",
+      "text": "When can i meet you?",
+      "score": 0.762,
+      "raw_score": 0.762,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9528,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:50:36.292470"
+    },
+    {
+      "sender": "Alex",
+      "role": "child",
+      "text": "Whenver",
+      "score": 0.736,
+      "raw_score": 0.736,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9198,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:50:48.644919"
+    },
+    {
+      "sender": "Jordan",
+      "role": "predator",
+      "text": "When exactly?",
+      "score": 0.0,
+      "raw_score": 0.617,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.7706,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:51:58.348850"
+    },
+    {
+      "sender": "Alex",
+      "role": "child",
+      "text": "Tommorrw",
+      "score": 0.679,
+      "raw_score": 0.679,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8482,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:52:11.119649"
+    },
+    {
+      "sender": "Jordan",
+      "role": "predator",
+      "text": "In sceret?",
+      "score": 0.0,
+      "raw_score": 0.407,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.5094,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:52:17.612107"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "HII",
+      "score": 0.0,
+      "raw_score": 0.314,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.3925,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:07:28.815710"
+    },
+    {
+      "sender": "ME",
+      "role": "child",
+      "text": "HEy",
+      "score": 0.0,
+      "raw_score": 0.602,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.7525,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:07:32.493680"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:07:40.452368"
+    },
+    {
+      "sender": "ME",
+      "role": "child",
+      "text": "13",
+      "score": 0.692,
+      "raw_score": 0.692,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.865,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:07:50.098255"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "Can we meet alone?",
+      "score": 0.757,
+      "raw_score": 0.757,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9463,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:15:42.051282"
+    },
+    {
+      "sender": "ME",
+      "role": "child",
+      "text": "YEs?",
+      "score": 0.66,
+      "raw_score": 0.66,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8246,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:15:48.898942"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "Don't tell you parents",
+      "score": 0.774,
+      "raw_score": 0.774,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.968,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:15:59.957599"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Jordan",
+      "role": "predator",
+      "text": "When can i meet you?",
+      "score": 0.762,
+      "raw_score": 0.762,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9528,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:50:36.292470",
+      "room_risk": 0.508,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:07:40.452368",
+      "room_risk": 0.305,
+      "stage": "Personal Info Requests"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "Can we meet alone?",
+      "score": 0.757,
+      "raw_score": 0.757,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9463,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:15:42.051282",
+      "room_risk": 0.456,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "User",
+      "role": "predator",
+      "text": "Don't tell you parents",
+      "score": 0.774,
+      "raw_score": 0.774,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.968,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:15:59.957599",
+      "room_risk": 0.612,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-07T15:27:18.479441",
+  "risk_score": 0.756,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:26:17.586181"
+    },
+    {
+      "sender": "Ed",
+      "role": "child",
+      "text": "Hey",
+      "score": 0.0,
+      "raw_score": 0.602,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.7525,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:26:21.354074"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "Can i meet you?",
+      "score": 0.768,
+      "raw_score": 0.768,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9606,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:26:28.633983"
+    },
+    {
+      "sender": "Ed",
+      "role": "child",
+      "text": "Yes",
+      "score": 0.674,
+      "raw_score": 0.674,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8431,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:27:09.608823"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "I wanna see you naked",
+      "score": 1.0,
+      "raw_score": 1.0,
+      "flags": [
+        "Suspicious language",
+        "Critical risk"
+      ],
+      "breakdown": {
+        "text_score": 0.9793,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:27:18.478034"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "Can i meet you?",
+      "score": 0.768,
+      "raw_score": 0.768,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9606,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:26:28.633983",
+      "room_risk": 0.512,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "I wanna see you naked",
+      "score": 1.0,
+      "raw_score": 1.0,
+      "flags": [
+        "Suspicious language",
+        "Critical risk"
+      ],
+      "breakdown": {
+        "text_score": 0.9793,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:27:18.478034",
+      "room_risk": 0.756,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

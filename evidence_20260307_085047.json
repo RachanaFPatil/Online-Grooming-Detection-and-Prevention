@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-07T08:50:47.646175",
+  "risk_score": 0.626,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:48:04.099583"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "Hello",
+      "score": 0.0,
+      "raw_score": 0.438,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.5476,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:48:07.436974"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "How old are you",
+      "score": 0.778,
+      "raw_score": 0.778,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9724,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:48:13.019649"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "15",
+      "score": 0.686,
+      "raw_score": 0.686,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8571,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:50:36.779218"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "Are you home alone?",
+      "score": 0.734,
+      "raw_score": 0.734,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9169,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:50:47.645176"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "How old are you",
+      "score": 0.778,
+      "raw_score": 0.778,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9724,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:48:13.019649",
+      "room_risk": 0.519,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "Are you home alone?",
+      "score": 0.734,
+      "raw_score": 0.734,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9169,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T08:50:47.645176",
+      "room_risk": 0.626,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

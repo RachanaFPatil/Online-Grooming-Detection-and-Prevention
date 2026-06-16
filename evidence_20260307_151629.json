@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-03-07T15:16:29.092317",
+  "risk_score": 0.623,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:05.544754"
+    },
+    {
+      "sender": "Ed",
+      "role": "child",
+      "text": "Heyy",
+      "score": 0.724,
+      "raw_score": 0.724,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9049,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:08.855847"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How are you?",
+      "score": 0.734,
+      "raw_score": 0.734,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9169,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:14.332522"
+    },
+    {
+      "sender": "Ed",
+      "role": "child",
+      "text": "Fine",
+      "score": 0.661,
+      "raw_score": 0.661,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8267,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:21.557158"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can we meet alone?",
+      "score": 0.757,
+      "raw_score": 0.757,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9463,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:29.090270"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How are you?",
+      "score": 0.734,
+      "raw_score": 0.734,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9169,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:14.332522",
+      "room_risk": 0.489,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can we meet alone?",
+      "score": 0.757,
+      "raw_score": 0.757,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9463,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T15:16:29.090270",
+      "room_risk": 0.623,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

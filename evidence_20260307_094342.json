@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-03-07T09:43:42.669591",
+  "risk_score": 0.604,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:43:11.579541"
+    },
+    {
+      "sender": "Girl",
+      "role": "child",
+      "text": "Hey",
+      "score": 0.0,
+      "raw_score": 0.602,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.7525,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:43:15.246947"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "How are you?",
+      "score": 0.734,
+      "raw_score": 0.734,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9169,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:43:23.013105"
+    },
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "What's your age?",
+      "score": 0.719,
+      "raw_score": 0.719,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8985,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:43:42.668592"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Pred",
+      "role": "predator",
+      "text": "How are you?",
+      "score": 0.734,
+      "raw_score": 0.734,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9169,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T09:43:23.013105",
+      "room_risk": 0.489,
+      "stage": "Isolation & Trust Building"
+    }
+  ]
+}

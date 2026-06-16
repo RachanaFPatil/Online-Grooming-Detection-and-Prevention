@@ -1,0 +1,13 @@
+flask
+flask-socketio
+eventlet
+transformers
+datasets
+accelerate
+scikit-learn
+torch
+emoji
+nudenet
+joblib
+seaborn
+matplotlib

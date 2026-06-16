@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-03-07T07:58:05.525181",
+  "risk_score": 0.509,
+  "stage": "Isolation Tactics",
+  "conversation": [
+    {
+      "sender": "Kiran",
+      "role": "predator",
+      "text": "Hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T07:57:49.699087"
+    },
+    {
+      "sender": "Lexi",
+      "role": "child",
+      "text": "Hello",
+      "score": 0.0,
+      "raw_score": 0.438,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.5476,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T07:57:54.307342"
+    },
+    {
+      "sender": "Kiran",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T07:58:05.524183"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Kiran",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T07:58:05.524183",
+      "room_risk": 0.509,
+      "stage": "Isolation Tactics"
+    }
+  ]
+}

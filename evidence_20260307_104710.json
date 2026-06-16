@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-07T10:47:10.020976",
+  "risk_score": 0.638,
+  "stage": "Emotional Manipulation",
+  "conversation": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Hey",
+      "score": 0.0,
+      "raw_score": 0.602,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.7525,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:46:30.349200"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "Hi",
+      "score": 0.0,
+      "raw_score": 0.527,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.6594,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:46:34.149856"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:46:41.527701"
+    },
+    {
+      "sender": "User",
+      "role": "child",
+      "text": "14",
+      "score": 0.684,
+      "raw_score": 0.684,
+      "flags": [],
+      "breakdown": {
+        "text_score": 0.8549,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:47:02.129216"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can i meet you in secret?",
+      "score": 0.767,
+      "raw_score": 0.767,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9592,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:47:10.019979"
+    }
+  ],
+  "flagged_messages": [
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "How old are you?",
+      "score": 0.763,
+      "raw_score": 0.763,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9539,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:46:41.527701",
+      "room_risk": 0.509,
+      "stage": "Isolation & Trust Building"
+    },
+    {
+      "sender": "Predator",
+      "role": "predator",
+      "text": "Can i meet you in secret?",
+      "score": 0.767,
+      "raw_score": 0.767,
+      "flags": [
+        "Suspicious language",
+        "High risk content"
+      ],
+      "breakdown": {
+        "text_score": 0.9592,
+        "emoji_score": 0.0,
+        "image_score": 0.0
+      },
+      "ts": "2026-03-07T10:47:10.019979",
+      "room_risk": 0.638,
+      "stage": "Emotional Manipulation"
+    }
+  ]
+}

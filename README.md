@@ -64,53 +64,49 @@ Safe Conversation Termination
 
 ## Architecture
 
-                    +------------------------+
-                    |    Child & Adult UI    |
-                    |  (HTML/CSS/JavaScript) |
-                    +-----------+------------+
-                                |
-                                |
-                  WebSocket (Socket.IO)
-                                |
-                                ▼
-                +-----------------------------+
-                | Flask Backend (Python)      |
-                | Flask-SocketIO + Gunicorn   |
-                +-------------+---------------+
-                              |
-        +---------------------+----------------------+
-        |                                            |
-        ▼                                            ▼
-+----------------------+              +----------------------------+
-| DistilBERT Detector  |              | Rule-Based Regex Engine    |
-| Grooming Classifier  |              | Fallback Detection         |
-+----------+-----------+              +-------------+--------------+
-           |                                        |
-           +--------------------+-------------------+
-                                |
-                                ▼
-                 +-------------------------------+
-                 | LLaMA 3.3-70B (Groq API)      |
-                 | Contextual Reasoning          |
-                 | Explanation Generation        |
-                 +---------------+---------------+
-                                 |
-                                 ▼
-                    +----------------------------+
-                    | Risk Scoring Engine        |
-                    | Threshold Evaluation       |
-                    +-------------+--------------+
-                                  |
-                +-----------------+------------------+
-                |                                    |
-                ▼                                    ▼
-      Continue Monitoring                 AI Sandbox Activated
-                                                  |
-                    +-----------------------------+--------------------------+
-                    |                            |                           |
-                    ▼                            ▼                           ▼
-           Parent Notification         Evidence Preservation      Safe AI Conversation
-             (Resend API)                Risk Logs               Termination & Support
+```mermaid
+flowchart LR
+
+subgraph Client
+A[Child]
+B[Adult]
+end
+
+subgraph Backend
+C[Flask + Flask-SocketIO]
+end
+
+subgraph AI_Engine
+D[DistilBERT]
+E[LLaMA 3.3-70B]
+F[Risk Scoring]
+end
+
+subgraph Intervention
+G[AI Sandbox]
+H[Evidence Storage]
+I[Parent Alert]
+J[Conversation Termination]
+K[Safety Guidance]
+end
+
+A --> C
+B --> C
+
+C --> D
+C --> E
+
+D --> F
+E --> F
+
+F --> G
+
+G --> H
+G --> I
+G --> J
+
+J --> K
+```
 
 ---
 
